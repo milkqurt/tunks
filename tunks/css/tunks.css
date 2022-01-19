@@ -1,0 +1,26 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+   }
+   .tank {
+    width: 150px;
+    height: 150px;
+    background: url(https://res.cloudinary.com/dspfsamgq/image/upload/v1588602306/tank_sy3sob.png);
+    position: absolute;
+    top:0;
+    left:0;
+   }
+   .right {
+    transform: rotate(90deg);
+   }
+   .down {
+    transform: rotate(180deg);
+   }
+   .left {
+    transform: rotate(-90deg);
+   }
+   .up {
+    transform: rotate(0deg);
+   }
